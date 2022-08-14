@@ -5,10 +5,12 @@ specifiers:
   typescript: ^4.6.4
   vite: ^3.0.0
   vue: ^3.2.37
+  vue-tinder: ^2.0.3
   vue-tsc: ^0.38.4
 
 dependencies:
   vue: 3.2.37
+  vue-tinder: 2.0.3
 
 devDependencies:
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
@@ -78,6 +80,14 @@ packages:
       '@vue/compiler-core': 3.2.37
       '@vue/shared': 3.2.37
 
+  /@vue/compiler-sfc/2.7.8:
+    resolution: {integrity: sha512-2DK4YWKfgLnW9VDR9gnju1gcYRk3flKj8UNsms7fsRmFcg35slVTZEkqwBtX+wJBXaamFfn6NxSsZh3h12Ix/Q==}
+    dependencies:
+      '@babel/parser': 7.18.9
+      postcss: 8.4.14
+      source-map: 0.6.1
+    dev: false
+
   /@vue/compiler-sfc/3.2.37:
     resolution: {integrity: sha512-+7i/2+9LYlpqDv+KTtWhOZH+pa8/HnX/905MdVmAcI/mPQOBwkHHIzrsEsucyOIZQYMkXUiTkmZq5am/NyXKkg==}
     dependencies:
@@ -142,6 +152,10 @@ packages:
 
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
+    dev: false
+
+  /csstype/3.1.0:
+    resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
     dev: false
 
   /esbuild-android-64/0.14.49:
@@ -471,6 +485,12 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /vue-tinder/2.0.3:
+    resolution: {integrity: sha512-1E6C5PkTszU3B07bkCc8P46e4lArTVGr0dFiannqD63C9NmWv03+tacrjWs8shuFSH544ABW5fNoYxnoufEfdQ==}
+    dependencies:
+      vue: 2.7.8
+    dev: false
+
   /vue-tsc/0.38.8_typescript@4.7.4:
     resolution: {integrity: sha512-hhyc5SODiekcYNXG08aNg17LogR19o3i14avVejo+Fm45Dqk9Ke6rb0M19HoTKdQGfZBgqg2VUboYxmtAukWeg==}
     hasBin: true
@@ -480,6 +500,13 @@ packages:
       '@volar/vue-typescript': 0.38.8
       typescript: 4.7.4
     dev: true
+
+  /vue/2.7.8:
+    resolution: {integrity: sha512-ncwlZx5qOcn754bCu5/tS/IWPhXHopfit79cx+uIlLMyt3vCMGcXai5yCG5y+I6cDmEj4ukRYyZail9FTQh7lQ==}
+    dependencies:
+      '@vue/compiler-sfc': 2.7.8
+      csstype: 3.1.0
+    dev: false
 
   /vue/3.2.37:
     resolution: {integrity: sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ==}
